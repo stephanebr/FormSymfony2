@@ -1,0 +1,7 @@
+sb_formulaire_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: SBFormulaireBundle:Default:index }
+
+sb_formulaire:
+    path:     /formulaire
+    defaults: { _controller: SBFormulaireBundle:Formulaire:ajoutForm }
